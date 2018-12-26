@@ -1,3 +1,39 @@
-h1 {
-  color: red;
+/* Variables
+====================================================================== */
+:root {
+  --background-color: #f4f4f4;
+  --main-color: #e74c3c;
+  --main-border-color: #c0392b;
 }
+
+
+
+/* Global
+====================================================================== */
+body {
+  background-color: var(--background-color);
+}
+
+.main-color-bg {
+  background-color: var(--main-color) !important;
+  border-color: var(--main-border-color) !important;
+  color: var(--background-color) !important;
+}
+
+
+
+/* Navigation Bar
+====================================================================== */
+.navbar {
+  min-height: 30px !important;
+}
+
+.navbar a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* TWBS Color scheme */
+/* .navbar {
+  background-color: var(--main-color) !important;
+} */
