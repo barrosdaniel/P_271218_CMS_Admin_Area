@@ -2,6 +2,7 @@
 ====================================================================== */
 :root {
   --background-color: #f4f4f4;
+  --background-color-dark: #333;
   --main-color: #e74c3c;
   --main-border-color: #c0392b;
 }
@@ -33,7 +34,15 @@ body {
   padding-bottom: 0;
 }
 
-/* TWBS Color scheme */
-/* .navbar {
-  background-color: var(--main-color) !important;
-} */
+
+
+/* Header 
+====================================================================== */
+#header {
+  background-color: var(--background-color-dark);
+  color: var(--background-color);
+}
+
+#header .create {
+  padding-top: 6px;
+}
