@@ -60,3 +60,15 @@ body {
 .breadcrumb a {
   color: var(--background-color-dark);
 }
+
+
+
+/* Main
+====================================================================== */
+#main .badge-secondary {
+  background-color: var(--background-color-dark);
+}
+
+#main .progress-bar {
+  background-color: var(--background-color-dark);
+}
