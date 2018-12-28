@@ -72,3 +72,7 @@ body {
 #main .progress-bar {
   background-color: var(--background-color-dark);
 }
+
+.panel {
+  justify-content: space-evenly;
+}
