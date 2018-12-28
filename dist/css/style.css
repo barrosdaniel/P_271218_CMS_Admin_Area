@@ -1,8 +1,9 @@
 /* Variables
 ====================================================================== */
 :root {
-  --background-color: #f4f4f4;
+  --background-color-main: #f4f4f4;
   --background-color-dark: #333;
+  --background-color-light: #ccc;
   --main-color: #e74c3c;
   --main-border-color: #c0392b;
 }
@@ -12,13 +13,13 @@
 /* Global
 ====================================================================== */
 body {
-  background-color: var(--background-color);
+  background-color: var(--background-color-main);
 }
 
 .main-color-bg {
   background-color: var(--main-color) !important;
   border-color: var(--main-border-color) !important;
-  color: var(--background-color) !important;
+  color: var(--background-color-main) !important;
 }
 
 
@@ -40,9 +41,22 @@ body {
 ====================================================================== */
 #header {
   background-color: var(--background-color-dark);
-  color: var(--background-color);
+  color: var(--background-color-main);
 }
 
 #header .create {
   padding-top: 6px;
+}
+
+
+
+/* Breadcrumb
+====================================================================== */
+.breadcrumb {
+  background-color: var(--background-color-light);
+  color: var(--background-color-dark);
+}
+
+.breadcrumb a {
+  color: var(--background-color-dark);
 }
