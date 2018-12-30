@@ -13,6 +13,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
 </head>
 
 <body>
@@ -255,10 +256,7 @@
             </div>
           </div>
         </div>
-
-
-
-
+        <!-- End of Latest Users -->
 
       </div>
     </div>
@@ -292,6 +290,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <script>
+    CKEDITOR.replace('editor1');
+  </script>
   <script>
     // Get current year for the copyright
     $('#year').text(new Date().getFullYear());

@@ -67,7 +67,7 @@ body {
 
 
 
-/* Main
+/* Main > Sidebar
 ====================================================================== */
 #main .badge-secondary {
   background-color: var(--background-color-dark);
@@ -75,4 +75,16 @@ body {
 
 #main .progress-bar {
   background-color: var(--background-color-dark);
+}
+
+
+
+/* Main > Users
+====================================================================== */
+@media screen and (max-width: 575px) {
+
+  .card table {
+    font-size: 0.75rem;
+  }
+
 }
