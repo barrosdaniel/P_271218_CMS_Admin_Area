@@ -48,6 +48,10 @@ body {
   padding-top: 6px;
 }
 
+.modal-footer button.btn-primary:hover {
+  background-color: var(--main-border-color) !important;
+}
+
 
 
 /* Breadcrumb
@@ -71,8 +75,4 @@ body {
 
 #main .progress-bar {
   background-color: var(--background-color-dark);
-}
-
-.panel {
-  justify-content: space-evenly;
 }
