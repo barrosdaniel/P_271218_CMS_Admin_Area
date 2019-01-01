@@ -6,6 +6,7 @@
   --background-color-light: #ccc;
   --main-color: #e74c3c;
   --main-border-color: #c0392b;
+  --text-color-light: #fafafa;
 }
 
 
@@ -87,4 +88,17 @@ body {
     font-size: 0.75rem;
   }
 
+}
+
+
+
+/* Footer
+====================================================================== */
+#footer {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-light);
+}
+
+#footer p {
+  margin: 0;
 }
