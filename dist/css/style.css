@@ -123,3 +123,15 @@ body {
   }
 
 }
+
+
+
+/* Edit > Main
+====================================================================== */
+.card input.btn {
+  width: 78px;
+}
+
+.card input.btn.main-color-bg:hover {
+  background-color: var(--main-border-color) !important;
+}
