@@ -102,3 +102,24 @@ body {
 #footer p {
   margin: 0;
 }
+
+
+
+/* Pages > Main
+====================================================================== */
+.card table a {
+  width: 78px;
+}
+
+.card table td {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 575px) {
+
+  .card table a {
+    width: 56px;
+    font-size: 0.75rem;
+  }
+
+}
