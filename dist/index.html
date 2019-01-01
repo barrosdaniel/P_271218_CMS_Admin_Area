@@ -171,7 +171,71 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
             <button type="button" class="btn btn-primary main-color-bg">Add
-              Page</button>
+              Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add User Modal -->
+  <div class="modal fade" id="addUser" tabindex="-1" role="dialog"
+    aria-labelledby="addUserModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="addUserModalLabel">Add User</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form>
+          <div class="modal-body">
+            <div class="form-group">
+              <label>User ID</label>
+              <p>A8001</p>
+            </div>
+            <div class="form-group">
+              <label for="givenName">Given Name</label>
+              <input type="text" name="givenName" id="givenName" class="form-control"
+                placeholder="Enter given name">
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName" id="lastName" class="form-control"
+                placeholder="Enter last name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" class="form-control"
+                placeholder="Enter email address">
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" class="form-control"
+                    placeholder="Enter password">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input type="password" name="confirmPassword" id="confirmPassword"
+                    class="form-control" placeholder="Enter password">
+                </div>
+              </div>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Active
+              </label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary main-color-bg">Add
+              User</button>
           </div>
         </form>
       </div>
