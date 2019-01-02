@@ -1,0 +1,141 @@
+/* Variables
+====================================================================== */
+:root {
+  --background-color-main: #f4f4f4;
+  --background-color-dark: #333;
+  --background-color-light: #ccc;
+  --main-color: #e74c3c;
+  --main-border-color: #c0392b;
+  --text-color-light: #fafafa;
+}
+
+
+
+/* Global
+====================================================================== */
+body {
+  background-color: var(--background-color-main);
+}
+
+.main-color-bg {
+  background-color: var(--main-color) !important;
+  border-color: var(--main-border-color) !important;
+  color: var(--background-color-main) !important;
+}
+
+
+
+/* Navigation Bar
+====================================================================== */
+.navbar {
+  min-height: 30px !important;
+}
+
+.navbar a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+
+/* Header 
+====================================================================== */
+#header {
+  background-color: var(--background-color-dark);
+  color: var(--background-color-main);
+}
+
+#header .create {
+  padding-top: 6px;
+}
+
+.modal-footer button.btn-primary:hover {
+  background-color: var(--main-border-color) !important;
+}
+
+
+
+/* Breadcrumb
+====================================================================== */
+.breadcrumb {
+  background-color: var(--background-color-light);
+  color: var(--background-color-dark);
+}
+
+.breadcrumb a {
+  color: var(--background-color-dark);
+}
+
+
+
+/* Main > Sidebar
+====================================================================== */
+#main .badge-secondary {
+  background-color: var(--background-color-dark);
+}
+
+#main .progress-bar {
+  background-color: var(--background-color-dark);
+}
+
+
+
+/* Main > Users
+====================================================================== */
+@media screen and (max-width: 575px) {
+
+  .card table {
+    font-size: 0.75rem;
+  }
+
+}
+
+
+
+/* Footer
+====================================================================== */
+#footer {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-light);
+}
+
+#footer p {
+  margin: 0;
+}
+
+
+
+/* Pages > Main
+====================================================================== */
+.card table a {
+  width: 78px;
+}
+
+.card table td {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 575px) {
+
+  .card table a {
+    width: 56px;
+    font-size: 0.75rem;
+  }
+
+}
+
+
+
+/* Edit > Main
+====================================================================== */
+.card input.btn {
+  width: 78px;
+}
+
+.card input.btn.main-color-bg:hover {
+  background-color: var(--main-border-color) !important;
+}
+
+.card .card-body button.btn.main-color-bg:hover {
+  background-color: var(--main-border-color) !important;
+}
