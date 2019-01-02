@@ -135,3 +135,7 @@ body {
 .card input.btn.main-color-bg:hover {
   background-color: var(--main-border-color) !important;
 }
+
+.card .card-body button.btn.main-color-bg:hover {
+  background-color: var(--main-border-color) !important;
+}
